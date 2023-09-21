@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:regular,bold,italic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:regular,bold,italic');
+
+body {
+    margin: 0;
+    background: #c3c2c2;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+.App {
+    margin: 80px;
+}
+
+.row {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.list {
+    margin: 0 auto 50px auto;
+    /* color: #FFFFFF; */
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.list .starship {
+    margin: 20px 0;
+    padding: 30px 40px;
+    width: 100%;
+    table-layout: fixed;
+    background-color: rgb(255, 255, 255);
+    /* border: solid 1em white; */
+}
+
+.list .starship .heading {
+    width: 30%;
+    font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+}
+
+progress {
+    height: 20px;
+    -webkit-appearance: none;
+}
+progress::-webkit-progress-value {
+    color: #74dd54;
+    background: #49da4e;
+}
+
+footer {
+    padding: 40px 0px;
+    background: #262525;
+    border-top: 1px solid #A11C3A;
+    margin-right: 20px;
+}
+
+footer button {
+    padding: 15px 25px;
+    border: unset;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+}
+footer button.btn-next {
+    float: right;
+    background: #7EB54B;
+}
+footer button.btn-prev {
+    background: #F9B31B;
+}
+footer button:disabled {
+    background: #757575;
+    cursor: not-allowed;
+}
